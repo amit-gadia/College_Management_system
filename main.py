@@ -1365,6 +1365,6 @@ def Url_fac_fetching():
       return hello_worlda()
    
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 print(crs.fetchall())
